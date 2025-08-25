@@ -2,7 +2,8 @@
 
 A Netflix-style streaming platform built with **React**, **TypeScript**, and **Tailwind CSS** featuring a modern dark UI, smooth animations, and responsive design.
 
-![Netflix Clone Preview](https://images.pexels.com/photos/7991033/pexels-photo-7991033.jpeg?auto=compress&cs=tinysrgb&w=1200)
+---
+
 
 ## Features
 
@@ -12,11 +13,40 @@ A Netflix-style streaming platform built with **React**, **TypeScript**, and **T
 - **Search & Discovery**: Real-time search with suggestions  
 - **Responsive Design**: Optimized for desktop, tablet, and mobile  
 
+---
+
+
 ## Tech Stack
 
 - **Frontend**: React 18, TypeScript, Tailwind CSS, Vite  
 - **Icons**: Lucide React  
-- **Tools**: ESLint, PostCSS, Autoprefixer  
+- **Tools**: ESLint, PostCSS, Autoprefixer
+
+  ---
+  
+## 📁 Project Structure
+src/
+├── components/           # Reusable UI components
+│   ├── AuthPage.tsx     # Authentication interface
+│   ├── Header.tsx       # Navigation header with search
+│   ├── HeroBanner.tsx   # Featured content banner
+│   ├── MovieCard.tsx    # Individual movie/show cards
+│   ├── MovieModal.tsx   # Detailed content information
+│   ├── MovieRow.tsx     # Horizontal content carousels
+│   ├── ProfileModal.tsx # User profile management
+│   ├── SearchResults.tsx# Search results display
+│   └── VideoPlayer.tsx  # Full-featured video player
+├── context/             # React context providers
+│   └── AuthContext.tsx  # Authentication state management
+├── data/               # Static data and mock content
+│   └── movies.ts       # Sample movie/show data
+├── types/              # TypeScript type definitions
+│   └── index.ts        # Shared interfaces and types
+├── App.tsx             # Main application component
+├── main.tsx            # Application entry point
+└── index.css           # Global styles and Tailwind imports
+
+---
 
 ## Quick Start
 
@@ -26,17 +56,6 @@ cd netflix-clone
 npm install
 npm run dev
 Open http://localhost:5173 to view the app.
-Project Structure
-src/
-├── components/      # Reusable UI components
-├── context/         # React context providers
-├── data/            # Sample content data
-├── types/           # TypeScript types
-├── App.tsx          # Main component
-└── main.tsx         # Entry point
-Future Enhancements
-•	Backend integration (Node.js + MongoDB)
-•	Real video streaming
-•	Subscription/payment system
-•	Multi-profile support and recommendations
+
+
 

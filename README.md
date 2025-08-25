@@ -22,9 +22,11 @@ A Netflix-style streaming platform built with **React**, **TypeScript**, and **T
 - **Icons**: Lucide React  
 - **Tools**: ESLint, PostCSS, Autoprefixer
 
-  ---
+---
   
 ## 📁 Project Structure
+
+```
 src/
 ├── components/           # Reusable UI components
 │   ├── AuthPage.tsx     # Authentication interface
@@ -45,6 +47,7 @@ src/
 ├── App.tsx             # Main application component
 ├── main.tsx            # Application entry point
 └── index.css           # Global styles and Tailwind imports
+```
 
 ---
 
